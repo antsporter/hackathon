@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mentorship</title>
+    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="news_scroll.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style>
+
+</style>
+</head>
+<body>
+<div class="topnav">
+    <a><img src="media/profile.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></a>
+    <a class="searchButton" href="#" style="float:right">Currently Mentoring</a>
+
+    <a style="float: right;"><img src="media/status.png" width="50" height="50" alt="Online"></a>
+</div>
+  
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search for Mentors" name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="column-1">
+    <div class="card">
+        <h2>MENTEE'S</h2>
+        <ul>
+            <li>Poppy Free</li>
+            <br>
+            <li>Nadia Shaikh</li>
+            <br>
+            <li>Adriao Dias</li>
+            <br>
+            <li>Anthony Porter</li>
+      </div>
+      <div class="card">
+        <form class="searchPage" action="action_page.php">
+          <input type="text" placeholder="Search for Mentee's" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="card">
+        <h2>Upcoming Events</h2>
+        <ul>
+          <li>Thursday 17th December</li>
+          <dd>Hackathon presentation</dd>
+          <br>
+          <li>Saturday 19th December</li>
+          <dd>Football Social</dd>
+        </ul>
+        <a href="index.html">Calendar</a>
+      </div>
+      <div class="card">
+        <a href="indexEvent.html"><h2>Add Event</h2></a>
+
+      </div>
+  </div>
+  <div class="column-2"> 
+    <div class="card">
+        <h2>Mentorship News Feed</h2>
+        <img src="media/newsFeed1.png">
+        <img src="media/newsFeed2.png">
+      </div>
+
+  </div>
+  <div class="column-3">
+    <div class="card">
+      <h2>Mentor TO-DO</h2>
+        <ol>
+            <li>Task</li>
+            <br>
+            <li>Task</li>
+            <br>
+            <li>Task</li>
+            <br>
+            <li>Task</li>
+            <br>
+            <li>Task</li>
+        </ol>
+    </div>
+    <br>
+    <form action="action_page.php" style="border:1px solid #ccc">
+      <div class="container">
+        <h3>Add To-Do</h3>
+        <hr>
+        <label for="task" ><b>Task</b></label>
+        <input type="text" placeholder="Task To-Do" name="task" required>
+        <br>
+        <label for="dueDate"><b>Due Date</b></label>
+        <input type="date" placeholder="Task due date" name="dueDate" required>
+        
+    
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="confirmAdd">Add Task</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="column-4">
+    <div class="card">
+        <!-- START SCROLLING NEWS WINDOW -->
+        <div id="news_iframe_scroll">
+          <div class="news_scroll-title">
+          <h2>Industry News</h2><br>
+          </div>
+          <iframe name="NewsIFrame" src="news_scroll.html" frameborder="0" scrolling="no"></iframe>
+          </div>
+          <!-- END SCROLLING NEWS WINDOW -->
+      </div>
+      <div class="card">
+        <h2>Follow Me</h2>
+        <img src="media/socialMedia.jpeg" width="320px">
+      </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Mentorship</h2>
+</div>
+
+
+</body>
+</html>
